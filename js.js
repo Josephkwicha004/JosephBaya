@@ -62,9 +62,9 @@ function renderProjects() {
 
                 <video
                     muted
-                    autoplay
                     loop
-                    playsinline>
+                    playsinline
+                    preload="metadata">
 
                     <source
                         src="${p.file}"
